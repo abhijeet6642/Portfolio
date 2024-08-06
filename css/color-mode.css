@@ -69,19 +69,20 @@ body:after {
   --tr-2: url(../assets/face-animation-light/tr-2.png);
   --tr-3: url(../assets/face-animation-light/tr-3.png);
   --tr-4: url(../assets/face-animation-light/tr-4.png);
-  --tr-5: url(../assets/face-animation-light/tr-5.png);
+  --tr-5: url(../assets/face-animation-light/tr-4.png);
+
 
   --bl-1: url(../assets/face-animation-light/bl-1.png);
   --bl-2: url(../assets/face-animation-light/bl-2.png);
   --bl-3: url(../assets/face-animation-light/bl-3.png);
   --bl-4: url(../assets/face-animation-light/bl-4.png);
-  --bl-5: url(../assets/face-animation-light/bl-5.png);
-
+  --bl-5: url(../assets/face-animation-light/bl-4.png);
+  
   --br-1: url(../assets/face-animation-light/br-1.png);
   --br-2: url(../assets/face-animation-light/br-2.png);
   --br-3: url(../assets/face-animation-light/br-3.png);
   --br-4: url(../assets/face-animation-light/br-4.png);
-  --br-5: url(../assets/face-animation-light/br-5.png);
+  --br-5: url(../assets/face-animation-light/br-4.png);
 
   --sun: url(../assets/icons/sun.png);
 }
@@ -112,13 +113,14 @@ body:after {
   --bl-2: url(../assets/face-animation-dark/blw-2.png);
   --bl-3: url(../assets/face-animation-dark/blw-3.png);
   --bl-4: url(../assets/face-animation-dark/blw-4.png);
-  --bl-5: url(../assets/face-animation-dark/blw-5.png);
+  --bl-5: url(../assets/face-animation-dark/blw-4.png);
 
   --br-1: url(../assets/face-animation-dark/brw-1.png);
   --br-2: url(../assets/face-animation-dark/brw-2.png);
   --br-3: url(../assets/face-animation-dark/brw-3.png);
   --br-4: url(../assets/face-animation-dark/brw-4.png);
-  --br-5: url(../assets/face-animation-dark/brw-5.png);
+  --br-5: url(../assets/face-animation-dark/brw-4.png);
+  
 
   --moon: url(../assets/icons/moon.png);
 }
