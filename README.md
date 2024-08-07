@@ -29,7 +29,7 @@ This is a personal portfolio website to showcase my projects, skills, and experi
    
 error: remote origin already exists.
 remote: Permission to BHAVISHEK1/Portfolio.git denied to abhijeet6642.
-fatal: unable to access 'https://github.com/BHAVISHEK1/Portfolio.git/': The requested URL returned error: 403
+fatal: unable to access https://github.com/abhijeet6642/Portfolio.git: The requested URL returned error: 403
 ChatGPT
 The error message indicates a few issues that need to be addressed:
 
@@ -51,13 +51,13 @@ If origin already exists and points to the wrong repository, you can update it:
 
 sh
 Copy code
-git remote set-url origin https://github.com/BHAVISHEK1/Portfolio.git
+git remote set-url origin https://github.com/abhijeet6642/Portfolio.git
 If you want to remove the existing remote and add a new one, you can do:
 
 sh
 Copy code
 git remote remove origin
-git remote add origin https://github.com/BHAVISHEK1/Portfolio.git
+git remote add origin https://github.com/abhijeet6642/Portfolio.git
 2. Ensure Correct Permissions
 Ensure that the user abhijeet6642 has the necessary permissions to access the repository. If you own the repository, you can add this user as a collaborator:
 
@@ -86,7 +86,7 @@ Update the remote URL to use SSH:
 
 sh
 Copy code
-git remote set-url origin git@github.com:BHAVISHEK1/Portfolio.git
+git remote set-url origin githttps://github.com/abhijeet6642/Portfolio.git
 4. Cache GitHub Credentials
 You can cache your credentials to avoid being prompted repeatedly:
 
@@ -101,13 +101,13 @@ git config --global credential.helper 'cache --timeout=3600'
 Summary of Commands
 sh
 Copy code
-git remote set-url origin https://github.com/BHAVISHEK1/Portfolio.git
+git remote set-url origin 
 # or
 git remote remove origin
-git remote add origin https://github.com/BHAVISHEK1/Portfolio.git
+git remote add origin https://github.com/abhijeet6642/Portfolio.git
 
 # Add SSH key and update remote URL
-git remote set-url origin git@github.com:BHAVISHEK1/Portfolio.git
+git remote set-url origin git https://github.com/abhijeet6642/Portfolio.git
 
 # Cache credentials
 git config --global credential.helper cache
@@ -125,17 +125,7 @@ Copy code
 
 Welcome to my portfolio project! This repository showcases my projects and skills using JavaScript, HTML, and CSS.
 
-## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -160,7 +150,7 @@ This is a personal portfolio website to showcase my projects, skills, and experi
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/BHAVISHEK1/Portfolio.git
+   git clone https://github.com/abhijeet6642/Portfolio.git
 Navigate to the project directory:
 
 sh
